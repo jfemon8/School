@@ -9,6 +9,7 @@ body {
     font-weight: 700;
     font-style: normal;
     background-color: #F7F7F7;
+    color: black;
 }
 
 nav {
@@ -120,7 +121,7 @@ nav {
     gap: 50px;
 }
 
-.nav-details{
+.nav-details {
     max-width: 640px;
 }
 
@@ -138,7 +139,7 @@ nav {
     color: rgb(1, 172, 253);
 }
 
-.nav-details > p{
+.nav-details>p {
     margin: 24px 0;
     font-weight: 400;
     font-size: 1.25rem;
@@ -153,7 +154,7 @@ nav {
     width: 100%;
 }
 
-.btn-2{
+.btn-2 {
     padding: 10px 47px;
     background-color: black;
     color: white;
@@ -165,13 +166,124 @@ nav {
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.btn-2:hover{
+.btn-2:hover {
     padding: 9px 46px;
     background-color: white;
     color: black;
     border: 1px solid black;
     cursor: pointer;
 }
+
+
+.curriculum {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 140px;
+}
+
+.curriculum>h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.curriculum-cards {
+    display: flex;
+    gap: 28px;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.curriculum-card {
+    text-align: center;
+    width: calc(33% - 28px);
+    border-radius: 18px;
+    padding: 50px 40px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.curriculum-card>img {
+    max-width: 100%;
+}
+
+.curriculum-card>h1 {
+    font-size: 1.5rem;
+}
+
+.curriculum-card>p {
+    margin-top: 33px;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: rgb(128, 128, 128);
+}
+
+.card-1 {
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    border: 1px solid rgb(222, 245, 255);
+}
+
+.card-2 {
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    border: 1px solid rgb(255, 244, 220);
+}
+
+.card-3 {
+    background: linear-gradient(180.00deg, rgb(242, 232, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    border: 1px solid rgb(242, 232, 255);
+}
+
+.read-more-1 {
+    color: rgb(100, 200, 255) !important;
+}
+
+.read-more-1:hover,
+.read-more-2:hover,
+.read-more-3:hover {
+    cursor: pointer;
+    color: black !important;
+}
+
+.read-more-2 {
+    color: rgb(240, 170, 0) !important;
+}
+
+.read-more-3 {
+    color: rgb(135, 0, 255) !important;
+}
+
+.arrows {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.arrow {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(254, 163, 1);
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+.arrow:hover {
+    height: 58px;
+    width: 58px;
+    border: 1px solid rgb(254, 163, 1);
+    background-color: white;
+    color: rgb(254, 163, 1);
+    cursor: pointer;
+}
+
+
+
+
 
 
 /* Responsive for Mobile Device */
@@ -201,18 +313,18 @@ nav {
 
 
 
-    .nav-content{
+    .nav-content {
         padding: 0 16px;
         flex-direction: column-reverse;
         gap: 20px;
     }
 
-    .nav-details{
+    .nav-details {
         text-align: center;
         margin-bottom: 20px;
     }
 
-    .nav-details > p{
+    .nav-details>p {
         margin: 18px 0;
     }
 }
