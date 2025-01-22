@@ -387,6 +387,74 @@ nav {
 
 
 
+.footer-content{
+    background-color: rgb(1, 172, 253);
+    padding: 123px 140px;
+    display: grid;
+    grid-template-columns: 40% repeat(2, 1fr);
+    gap: 100px;
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    gap: 11px;
+    align-items:center;
+}
+
+.footer-logo > img{
+    height: 81px;
+    width: 81px;
+}
+
+.footer-logo > h1{
+    font-size: 2.75rem;
+}
+
+.kids > p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: white;
+    text-align: justify;
+}
+
+.about-school > h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.about-school ul{
+    list-style: none; 
+    padding: 0;      
+    margin: 0;
+}
+
+.about-school li{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.about-school a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.about-school a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.keep-in-touch > h1{
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+    margin-bottom: 32px;
+}
+
+
 
 
 /* Responsive for Mobile Device */
@@ -452,5 +520,47 @@ nav {
 
     .arrows {
         display: none;
+    }
+
+
+    .big-box{
+        display: none;
+    }
+
+    .stories {
+        padding: 40px 16px;
+    }
+
+    .story-boxes {
+        margin: 20px 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box-details {
+        margin-top: -5px;
+        padding: 11px 22px;
+        border-radius: 0 0 9px 9px;
+    }
+
+    .box-image>img {
+        border-radius: 9px 9px 0 0;
+    }
+
+    .boxes {
+        gap: 11px;
+    }
+
+    .date-2, .date-3{
+        padding: 5px 11px;
+        transform: translateY(-30px);
+        border-radius: 28px;
+    }
+
+
+    .footer-content{
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 32px;
     }
 }
