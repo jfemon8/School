@@ -381,13 +381,13 @@ nav {
     white-space: nowrap;
 }
 
-.story-btn{
+.story-btn {
     text-align: center;
 }
 
 
 
-.footer-content{
+.footer-content {
     background-color: rgb(1, 172, 253);
     padding: 123px 140px;
     display: grid;
@@ -396,22 +396,22 @@ nav {
     color: white;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     gap: 11px;
-    align-items:center;
+    align-items: center;
 }
 
-.footer-logo > img{
+.footer-logo>img {
     height: 81px;
     width: 81px;
 }
 
-.footer-logo > h1{
+.footer-logo>h1 {
     font-size: 2.75rem;
 }
 
-.kids > p{
+.kids>p {
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -419,28 +419,28 @@ nav {
     text-align: justify;
 }
 
-.about-school > h1{
+.about-school>h1 {
     font-size: 1.5rem;
     line-height: 2rem;
 }
 
-.about-school ul{
-    list-style: none; 
-    padding: 0;      
+.about-school ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
 }
 
-.about-school li{
+.about-school li {
     text-align: left;
     margin-top: 20px;
 }
 
-.about-school a:hover{
+.about-school a:hover {
     cursor: pointer;
     color: black;
 }
 
-.about-school a{
+.about-school a {
     text-decoration: none;
     color: white;
     font-weight: 400;
@@ -448,7 +448,7 @@ nav {
     line-height: 1.5rem;
 }
 
-.keep-in-touch > h1{
+.keep-in-touch>h1 {
     font-size: 1.75rem;
     line-height: 1.75rem;
     margin-bottom: 32px;
@@ -523,7 +523,7 @@ nav {
     }
 
 
-    .big-box{
+    .big-box {
         display: none;
     }
 
@@ -550,14 +550,15 @@ nav {
         gap: 11px;
     }
 
-    .date-2, .date-3{
+    .date-2,
+    .date-3 {
         padding: 5px 11px;
         transform: translateY(-30px);
         border-radius: 28px;
     }
 
 
-    .footer-content{
+    .footer-content {
         padding: 40px 20px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
