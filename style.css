@@ -283,6 +283,109 @@ nav {
 
 
 
+.stories {
+    padding: 60px 140px;
+    background-image: url('images/bg.png'), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.stories>h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.story-boxes {
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box-details {
+    margin-top: -5px;
+    padding: 30px 38px;
+    background-color: white;
+    border-radius: 0 0 16px 16px;
+}
+
+.box-image>img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.box-details>h1 {
+    font-size: 1.5rem;
+}
+
+.box-details>p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: rgb(102, 102, 102);
+}
+
+.box-details>h2 {
+    font-size: 1rem;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.big-box,
+.box-image,
+.box {
+    position: relative;
+}
+
+.date-1 {
+    position: absolute;
+    transform: translateY(-50px);
+    background-color: rgb(60, 216, 232);
+    padding: 14px 19px;
+    border: none;
+    border-radius: 48px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+}
+
+.date-2 {
+    position: absolute;
+    transform: translateY(-50px);
+    background-color: rgb(149, 178, 38);
+    padding: 9px 19px;
+    border: none;
+    border-radius: 48px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+}
+
+.date-3 {
+    position: absolute;
+    transform: translateY(-50px);
+    background-color: rgb(93, 88, 240);
+    padding: 9px 19px;
+    border: none;
+    border-radius: 48px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    white-space: nowrap;
+}
+
+.story-btn{
+    text-align: center;
+}
+
+
 
 
 
@@ -326,5 +429,28 @@ nav {
 
     .nav-details>p {
         margin: 18px 0;
+    }
+
+
+
+    .curriculum {
+        padding: 40px 16px;
+    }
+
+    .curriculum-cards {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .curriculum-card {
+        width: 85%;
+        border-radius: 12px;
+        padding: 36px 28px;
+    }
+
+    .arrows {
+        display: none;
     }
 }
